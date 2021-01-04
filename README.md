@@ -1,13 +1,13 @@
 ### Hi there I'm Muhammad Ramdani 💁🏻
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=diigel&theme=algolia&show_icons=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=diigel&theme=react&show_icons=true" />
 </a>
 
 <br>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diigel&layout=compact&theme=algolia" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diigel&layout=compact&theme=react" />
 </a>
 
 
