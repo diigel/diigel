@@ -33,17 +33,35 @@ I have a strong interest in mobile technology and constantly strive to build use
 ---
 
 ### 🧰 Tech Stack & Tools
+Here are the technologies and tools I work with:
 
 <img align="right" height="150px" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding GIF"/>
 
-```kotlin
-val ramdani = Developer(
-    languages = listOf("Kotlin", "Java"),
-    frameworks = listOf("Android SDK", "Jetpack Compose"),
-    architecture = listOf("MVVM", "Clean Architecture"),
-    tools = listOf("Android Studio", "Git", "Firebase", "Retrofit", "Room DB")
-)
-```
+<p align="center">
+  <!-- Programming Languages -->
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  
+  <!-- Android & Frameworks -->
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  
+  <!-- Architecture -->
+  <img src="https://img.shields.io/badge/MVVM-Architecture-blue?style=for-the-badge" alt="MVVM"/>
+  <img src="https://img.shields.io/badge/Clean%20Architecture-Architecture-success?style=for-the-badge" alt="Clean Architecture"/>
+  <img src="https://img.shields.io/badge/MVVM-Architecture-blue?style=for-the-badge" alt="MVI"/>
+  <img src="https://img.shields.io/badge/Clean%20Architecture-Architecture-success?style=for-the-badge" alt="Clean Architecture"/>
+
+
+  <br/>
+  
+  <!-- Tools & Libraries -->
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logo=square&logoColor=white" alt="Retrofit"/>
+  <img src="https://img.shields.io/badge/Room%20DB-623CE4?style=for-the-badge" alt="Room DB"/>
+</p>
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,git,firebase&perline=7" />
