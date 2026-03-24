@@ -48,11 +48,8 @@ Here are the technologies and tools I work with:
   
   <!-- Architecture -->
   <img src="https://img.shields.io/badge/MVVM-Architecture-blue?style=for-the-badge" alt="MVVM"/>
+  <img src="https://img.shields.io/badge/MVI-Architecture-blue?style=for-the-badge" alt="MVI"/>
   <img src="https://img.shields.io/badge/Clean%20Architecture-Architecture-success?style=for-the-badge" alt="Clean Architecture"/>
-  <img src="https://img.shields.io/badge/MVVM-Architecture-blue?style=for-the-badge" alt="MVI"/>
-  <img src="https://img.shields.io/badge/Clean%20Architecture-Architecture-success?style=for-the-badge" alt="Clean Architecture"/>
-
-
   <br/>
   
   <!-- Tools & Libraries -->
