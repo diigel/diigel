@@ -69,8 +69,9 @@ Here are the technologies and tools I work with:
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=diigel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diigel&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180px"/>
+  <img src="https://status-api-gua.vercel.app/api?username=diigel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" height="180" />
+  
+  <img src="https://status-api-gua.vercel.app/api/top-langs?username=diigel&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="180" />
 </div>
 
 <br>
