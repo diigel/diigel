@@ -1,33 +1,40 @@
-name: Generate GitHub Streak
+name: Generate GitHub Streak SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # update tiap hari jam 00:00 UTC
+    - cron: '0 0 * * *' # update tiap hari jam 00:00 UTC
   workflow_dispatch:
 
 jobs:
   generate-streak:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Set up Node.js
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install streak-stats CLI
+      - name: Install streak-stats from GitHub repo
         run: |
-          npm install -g github-readme-streak-stats
+          npm install -g git+https://github.com/denvercoder1/github-readme-streak-stats.git
 
-      - name: Generate streak SVG
+      - name: Generate streak.svg
         run: |
-          streak-stats --user diigel --theme blue-navy --hide-border true --output profile/streak.svg
+          mkdir -p profile
+          streak-stats \
+            --user diigel \
+            --theme blue-navy \
+            --hide-border true \
+            --output profile/streak.svg
 
       - name: Commit and push SVG
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/streak.svg
-          git commit -m "Update streak.svg"
+          git commit -m "Update streak.svg" || echo "No changes to commit"
           git push
