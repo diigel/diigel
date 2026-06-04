@@ -1,19 +1,20 @@
 name: Update GitHub Streak Stats
 
-# Trigger: harian, manual, dan kalau workflow diubah
 on:
   schedule:
     - cron: "0 3 * * *"       # setiap hari jam 03:00 UTC
   push:
     paths:
       - ".github/workflows/streak.yml"
-  workflow_dispatch:           # bisa dijalankan manual di Actions tab
+  workflow_dispatch:           # bisa dijalankan manual
 
 jobs:
   update-streak:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # paksa Node.js 24 untuk semua JS action
     permissions:
-      contents: write           # perlu untuk commit/push hasil SVG
+      contents: write
 
     steps:
       # Checkout repo
