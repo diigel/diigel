@@ -77,7 +77,9 @@ Here are the technologies and tools I work with:
 <br>
 
 <div align="center">
-  <img src="[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=diigel&theme=blue-navy&hide_border=true&locale=id)](https://git.io/streak-stats)" alt="GitHub Streak" />
+  <a href="https://git.io/streak-stats">
+    <img src="./profile/streak.svg" alt="GitHub Streak" />
+  </a>
 </div>
 
 ---
