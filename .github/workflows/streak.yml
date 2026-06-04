@@ -2,23 +2,22 @@ name: Generate GitHub Streak SVG
 
 on:
   schedule:
-    - cron: '0 0 * * *' # update tiap hari jam 00:00 UTC
+    - cron: '0 0 * * *'  # tiap hari jam 00:00 UTC
   workflow_dispatch:
 
 jobs:
   generate-streak:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4   # update ke v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '22'
 
-      - name: Install streak-stats from GitHub repo
+      - name: Install streak-stats from GitHub
         run: |
           npm install -g git+https://github.com/denvercoder1/github-readme-streak-stats.git
 
@@ -31,7 +30,7 @@ jobs:
             --hide-border true \
             --output profile/streak.svg
 
-      - name: Commit and push SVG
+      - name: Commit and push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
